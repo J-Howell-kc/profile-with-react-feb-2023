@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #d9dcd6;
+}
+
+.about_me {
+  display: flex;
+  justify-content: space-around;
+  height: 550px;
+  color:#0a3d11;
+  background-color: #f2ee07;
+  font-family:'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile_image {
+  margin: 20px;
+}
+
+.about_me section {
+  margin: 20px;
+}
+.header {
+  padding: 20px;
+  font-family:'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #0a3d11;
+  color: #f2ee07;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+
+
+
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #4ee90c;
+  text-decoration: none;
+}
+b {
+  color: black ;
+  text-decoration: none;
+}
+p {
+  font-size: 16px;
+}
+
+.hero {
+  height: 800
+  px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: src="assets/images/StaringAtAScreen.jpg";
+  background-size: cover;
+  background-position: center;
+}
+
+img.large {
+  width: 500px;
+  height: 500px;
+}
+
+img.medium {
+  width: 125px;
+  height: 125px;
+}
+
+img.small {
+  width: 85px;
+  height: 85px;
+}
+
+.projects {
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+ 
+  display: flex;
+
+  padding-top: 50px;
+  margin-left: 20px;
+}
+.contact section {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+   color:#f2ee07;
+   background-color: #0a3d11;
+   padding-left: 20px;
+   padding-top: 20px;
+   height: 100px;
+   margin-top: 20px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+
